@@ -1,1 +1,0 @@
-import{j as e}from"./app-D3iOfVFl.js";const a=({label:t,children:s})=>e.jsxs("fieldset",{className:"border border-[#bdbcbc] px-3 pb-2 relative",children:[e.jsx("legend",{className:"text-[15px] font-extrabold text-[#000]",children:t}),e.jsx("div",{className:"mt-1",children:s})]});export{a as default};

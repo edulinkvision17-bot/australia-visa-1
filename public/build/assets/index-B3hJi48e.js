@@ -1,1 +1,0 @@
-import{j as e}from"./app-D3iOfVFl.js";import{C as r}from"./chevron-down-C2SCVY8M.js";import"./createLucideIcon-Ck_TQfJh.js";function i(){return e.jsx(e.Fragment,{children:e.jsxs("div",{className:"flex items-end",children:[e.jsx(r,{size:15}),e.jsx("p",{className:"underline",children:"Advanced Search"})]})})}export{i as default};

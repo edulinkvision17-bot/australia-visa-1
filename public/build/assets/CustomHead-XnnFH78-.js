@@ -1,1 +1,0 @@
-import{j as t}from"./app-D3iOfVFl.js";function n({heading:e}){return t.jsx(t.Fragment,{children:t.jsx("div",{className:"bg-main-nav text-[#fff] text-[13px] font-extrabold h-[31px] px-3 flex items-center",children:e})})}export{n as C};

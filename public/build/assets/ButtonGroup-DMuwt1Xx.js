@@ -1,0 +1,1 @@
+import{j as t}from"./app-BGmg6Jx7.js";import{B as r}from"./Button-gs5ox5nN.js";function p({showLeftBtn:e=!0,showRightBtn:o=!0,leftBtnLabel:s,rightBtnLabel:l,leftOnClick:i,rightOnClick:n,bgColor:u="bg-bg-primary"}){return t.jsxs("div",{className:`w-full p-2 ${u} flex justify-between mt-4`,children:[e&&t.jsx(r,{label:s,onClick:i}),o&&t.jsx(r,{label:l,onClick:n})]})}export{p as B};

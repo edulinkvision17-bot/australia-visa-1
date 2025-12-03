@@ -1,0 +1,1 @@
+import{j as r}from"./app-BGmg6Jx7.js";import{A as t}from"./AppLayout-CZlnVSdP.js";import"./createLucideIcon-C5_F0BDZ.js";const s=()=>r.jsx(r.Fragment,{children:r.jsx(t,{children:"View"})});export{s as default};
