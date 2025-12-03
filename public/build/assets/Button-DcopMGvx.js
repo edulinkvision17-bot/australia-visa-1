@@ -1,0 +1,1 @@
+import{j as t}from"./app-D3iOfVFl.js";function s({label:r,onClick:e,className:n}){return t.jsx(t.Fragment,{children:t.jsx("button",{className:`px-2 border border-black bg-bg-btn text-text-textDark font-semibold ${n}`,onClick:e,children:r})})}export{s as B};

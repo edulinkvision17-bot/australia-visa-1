@@ -1,0 +1,1 @@
+import{j as r}from"./app-D3iOfVFl.js";function u({type:e,placeholder:a,name:n,value:o,onChange:s}){return r.jsx(r.Fragment,{children:r.jsx("input",{type:e,className:"w-full h-5 border border-black px-[1px]",placeholder:a,name:n,value:o,onChange:t=>{s(t.target.name,t.target.value)}})})}export{u as I};

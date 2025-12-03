@@ -1,0 +1,1 @@
+import{j as t}from"./app-D3iOfVFl.js";import{A as r}from"./AppLayout-DrgcrOGe.js";import"./createLucideIcon-Ck_TQfJh.js";const e=()=>t.jsx(t.Fragment,{children:t.jsx(r,{children:"List"})});export{e as default};
