@@ -125,9 +125,7 @@ class VisaApplicationRepository {
 
         foreach ($pdfFields as $field) {
             if ($request->hasFile($field)) {
-
                 $path = $request->file($field)->store('visa_pdfs', 'public');
-
                 $storeData[$field] = $path;
             }
         }
@@ -162,7 +160,11 @@ class VisaApplicationRepository {
     }
 
     public static function delete($data) {
+        return VisaApplication::where("id", $data['id'])->delete();
+    }
 
+    public static function detail($data) {
+        return VisaApplication::where("id", $data['id'])->first();
     }
 
 }

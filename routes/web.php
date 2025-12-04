@@ -59,10 +59,12 @@ Route::middleware(['main.login', 'auth', 'role:organization,admin'])->group(func
         Route::post('/save', [ImmiAccountConroller::class, 'save'])->name('save');
     });
 
+    # visa application
     Route::name('visa.application.')->group(function () {
         Route::post('/list', [VisaApplicationController::class, 'list'])->name('list');
         Route::post('/save', [VisaApplicationController::class, 'save'])->name('save');
         Route::post('/delete', [VisaApplicationController::class, 'delete'])->name('delete');
+        Route::post('/detail', [VisaApplicationController::class, 'detail'])->name('detail');
     });
 });
 

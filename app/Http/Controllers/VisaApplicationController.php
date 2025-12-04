@@ -33,4 +33,13 @@ class VisaApplicationController extends Controller
             return $this->response($e->getMessage(), false);
         }
     }
+
+    public function detail(Request $request) {
+        try {
+            $visaApplication = VisaApplicationRepository::detail($request);
+            return $this->response("Visa application save successfully.", true, $visaApplication);
+        } catch (\Exception $e) {
+            return $this->response($e->getMessage(), false);
+        }
+    }
 }
